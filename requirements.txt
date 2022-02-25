@@ -1,0 +1,9 @@
+opencv-python
+tkinter
+os
+numpy
+math
+pandas
+json
+pillow
+datetime
