@@ -14,7 +14,8 @@ def write_function(filename : str = "", f_name : str = "", input_fun : str = "",
     f.writelines(text)
     f.close()
 
-filepath = "A:\\Pending Projects\\OCR Calculator\\ocr-calculator\\Data\\fun.txt"
+    #add abosulte path according to machines
+filepath = "C:\\vishruti\\OCR Calculator\\ocr-calculator\\Data\\fun.txt"
 create_file(filepath)
 write_function(filepath,"Trigonometry","sin^2(x) + cos^2(x)","1" )
 write_function(filepath,"Trigonometry","tan^2(x) + cot^2(x)","1" )
