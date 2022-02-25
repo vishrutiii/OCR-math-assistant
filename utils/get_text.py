@@ -1,3 +1,4 @@
+#used tensorflow afterwards
 import os
 import sys
 import math
@@ -11,7 +12,8 @@ from utils.read_image import read_image
 import numpy as np
 import cv2
 
-pytesseract.pytesseract.tesseract_cmd = 'C:\\Users\\dev24\\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract.exe'
+#add relative path
+pytesseract.pytesseract.tesseract_cmd = 'C:\\Users\\vishruti\\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract.exe'
 
 def get_text(filename : str = ""):
     """
